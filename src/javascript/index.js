@@ -25,3 +25,23 @@ console.log(isNumber('9999999999999999')) // true
 console.log(isNumber('1e+2')) // false
 console.log(isNumber(9999999999999999n)) // false
 console.log(isNumber(9999999999999999)) // false
+
+/**
+ * Number, is Greater than.
+ * @constructor
+ * @param {string} a - The number want to compare.
+ * @param {string} b - Number to compare from "a".
+ * @returns {boolean} "a" is greater than "b"
+ */
+function isGreater(a, b) {
+    if ( isNumber(a) && isNumber(b) ) {
+        if ( a.length > b.length ) return true
+    }
+    return false
+}
+
+console.log(isGreater('12', '1') === true) // true
+console.log(isGreater('1', '1') === false) // true
+console.log(isGreater('2', '2') === false) // true
+console.log(isGreater('1', '2') === false) // true
+console.log(isGreater('2', '1') === true) // false
