@@ -12,6 +12,6 @@ So try to check in your programming language and print the number 99999999999999
 Don't worry, because this project can not only be run in one programming language, but more.
 Here is the programming language I plan to use for this project:
 - PHP
-- Python
+- Python (Canceled, because I already checked. It prints 9999999999999999)
 - JavaScript
 - And more, if the language is easy for me to understand
